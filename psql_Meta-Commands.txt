@@ -1,0 +1,11 @@
+psql Meta-Commands
+
+https://www.postgresql.org/docs/12/app-psql.html
+
+
+\l             list databases
+\c [database]  connect to [database]
+\d             show all relations of current database
+\dt            show tables of current database
+
+\password      change password of current user
