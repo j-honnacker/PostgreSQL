@@ -8,4 +8,7 @@ https://www.postgresql.org/docs/12/app-psql.html
 \d             show all relations of current database
 \dt            show tables of current database
 
+\i             execute .sql file; even on Windows use forward slashes and single quotes:
+               \i 'D:\psql_scripts\tbl_defs.sql'
+
 \password      change password of current user
